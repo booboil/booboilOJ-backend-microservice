@@ -6,7 +6,7 @@ import java.net.InetAddress;
 /**
  * 网络工具类
  *
- * @author <a href="https://github.com/booboil">程序员鱼皮</a>
+ * @author <a href="https://github.com/booboil">程序员booboil</a>
  * 
  */
 public class NetUtils {

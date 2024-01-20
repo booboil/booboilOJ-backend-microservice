@@ -8,7 +8,7 @@ import java.io.Serializable;
  * 通用返回类
  *
  * @param <T>
- * @author <a href="https://github.com/booboil">程序员鱼皮</a>
+ * @author <a href="https://github.com/booboil">程序员booboil</a>
  * 
  */
 @Data

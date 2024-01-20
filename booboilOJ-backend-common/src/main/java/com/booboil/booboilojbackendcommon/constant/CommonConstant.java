@@ -3,7 +3,7 @@ package com.booboil.booboilojbackendcommon.constant;
 /**
  * 通用常量
  *
- * @author <a href="https://github.com/booboil">程序员鱼皮</a>
+ * @author <a href="https://github.com/booboil">程序员booboil</a>
  * 
  */
 public interface CommonConstant {

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 /**
  * 全局异常处理器
  *
- * @author <a href="https://github.com/booboil">程序员鱼皮</a>
+ * @author <a href="https://github.com/booboil">程序员booboil</a>
  * 
  */
 @RestControllerAdvice

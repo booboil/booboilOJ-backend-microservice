@@ -6,7 +6,7 @@ import com.booboil.booboilojbackendcommon.common.ErrorCode;
 /**
  * 自定义异常类
  *
- * @author <a href="https://github.com/booboil">程序员鱼皮</a>
+ * @author <a href="https://github.com/booboil">程序员booboil</a>
  * 
  */
 public class BusinessException extends RuntimeException {
