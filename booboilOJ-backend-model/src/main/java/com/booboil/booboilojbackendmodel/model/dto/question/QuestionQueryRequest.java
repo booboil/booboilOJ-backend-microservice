@@ -1,9 +1,8 @@
 package com.booboil.booboilojbackendmodel.model.dto.question;
 
-
+import com.booboil.booboilojbackendcommon.common.PageRequest;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.springframework.data.domain.PageRequest;
 
 import java.io.Serializable;
 import java.util.List;
@@ -12,7 +11,6 @@ import java.util.List;
  * 查询请求
  *
  * @author <a href="https://github.com/booboil">程序员booboil</a>
-
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

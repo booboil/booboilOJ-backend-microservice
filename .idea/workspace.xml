@@ -5,54 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="添加实体类&#10;实体类对象">
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/codesandbox/ExecuteCodeRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/codesandbox/ExecuteCodeResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/codesandbox/JudgeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/dto/file/UploadFileRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/dto/question/JudgeCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/dto/question/JudgeConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/dto/question/QuestionAddRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/dto/question/QuestionEditRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/dto/question/QuestionQueryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/dto/question/QuestionUpdateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/dto/questionsubmit/QuestionSubmitAddRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/dto/questionsubmit/QuestionSubmitQueryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/dto/user/UserAddRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/dto/user/UserLoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/dto/user/UserQueryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/dto/user/UserRegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/dto/user/UserUpdateMyRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/dto/user/UserUpdateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/entity/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/entity/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/entity/QuestionSubmit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/enums/FileUploadBizEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/enums/JudgeInfoMessageEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/enums/QuestionSubmitLanguageEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/enums/QuestionSubmitStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/enums/UserRoleEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/vo/LoginUserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/vo/PostVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/vo/QuestionSubmitVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/vo/QuestionVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/vo/UserVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/common/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/common/BaseResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/common/DeleteRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/common/DeleteRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/common/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/common/ErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/common/PageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/common/PageRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/common/ResultUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/common/ResultUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/config/JsonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/config/JsonConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/constant/CommonConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/constant/CommonConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/constant/FileConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/constant/FileConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/constant/UserConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/constant/UserConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/exception/BusinessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/exception/ThrowUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/exception/ThrowUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/utils/NetUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/utils/NetUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/utils/SqlUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/utils/SqlUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-model.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booboilOJ-backend-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/dto/question/QuestionQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/dto/question/QuestionQueryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/entity/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-model/src/main/java/com/booboil/booboilojbackendmodel/model/entity/Question.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +78,7 @@
       <workItem from="1705663697679" duration="2250000" />
       <workItem from="1705745555733" duration="1527000" />
       <workItem from="1705747091010" duration="736000" />
-      <workItem from="1705750377127" duration="2602000" />
+      <workItem from="1705750377127" duration="2792000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;项目初始化父pom">
       <created>1705746314582</created>
@@ -159,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705752329810</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="添加实体类&#10;实体类对象">
+      <created>1705753006062</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705753006062</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

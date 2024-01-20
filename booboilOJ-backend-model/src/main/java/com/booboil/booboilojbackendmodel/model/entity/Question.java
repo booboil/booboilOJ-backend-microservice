@@ -1,7 +1,9 @@
 package com.booboil.booboilojbackendmodel.model.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -12,6 +14,8 @@ import java.util.Date;
  */
 @TableName(value ="question")
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Question implements Serializable {
     /**
      * id
