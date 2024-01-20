@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="booboilOJ-backend-service-client" />
+        <module name="booboilOJ-backend-model" />
+        <module name="booboilOJ-backend-user-service" />
+        <module name="booboilOJ-backend-gateway" />
+        <module name="booboilOJ-backend-question-service" />
+        <module name="booboilOJ-backend-judge-service" />
+        <module name="booboilOJ-backend-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="booboilOJ-backend-common" target="1.8" />
+      <module name="booboilOJ-backend-gateway" target="1.8" />
+      <module name="booboilOJ-backend-judge-service" target="1.8" />
+      <module name="booboilOJ-backend-microservice" target="1.8" />
+      <module name="booboilOJ-backend-model" target="1.8" />
+      <module name="booboilOJ-backend-question-service" target="1.8" />
+      <module name="booboilOJ-backend-service-client" target="1.8" />
+      <module name="booboilOJ-backend-user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

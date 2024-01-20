@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/booboilOJ-backend-common.iml" filepath="$PROJECT_DIR$/booboilOJ-backend-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/booboilOJ-backend-gateway/booboilOJ-backend-gateway.iml" filepath="$PROJECT_DIR$/booboilOJ-backend-gateway/booboilOJ-backend-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/booboilOJ-backend-judge-service/booboilOJ-backend-judge-service.iml" filepath="$PROJECT_DIR$/booboilOJ-backend-judge-service/booboilOJ-backend-judge-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/booboilOJ-backend-microservice.iml" filepath="$PROJECT_DIR$/booboilOJ-backend-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/booboilOJ-backend-model.iml" filepath="$PROJECT_DIR$/booboilOJ-backend-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/booboilOJ-backend-question-service/booboilOJ-backend-question-service.iml" filepath="$PROJECT_DIR$/booboilOJ-backend-question-service/booboilOJ-backend-question-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/booboil0J-backend-service-client/booboilOJ-backend-service-client.iml" filepath="$PROJECT_DIR$/booboil0J-backend-service-client/booboilOJ-backend-service-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/booboilOJ-backend-user-service/booboilOJ-backend-user-service.iml" filepath="$PROJECT_DIR$/booboilOJ-backend-user-service/booboilOJ-backend-user-service.iml" />
+    </modules>
+  </component>
+</project>
