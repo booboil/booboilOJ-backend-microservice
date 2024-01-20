@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="&#10;项目客户端服务初始化">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="&#10;给各个模块之间绑定父子模块关系">
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/booboilojbackendcommon/annotation/BooboilOjBackendJudgeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/IdeaProject/Oj/booboilOJ-backend-microservice",
+    "last_opened_file_path": "D:/IdeaProject/Oj/booboilOJ-backend-microservice/booboilOJ-backend-common/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,7 +62,7 @@
       <workItem from="1705663697679" duration="2250000" />
       <workItem from="1705745555733" duration="1527000" />
       <workItem from="1705747091010" duration="736000" />
-      <workItem from="1705750377127" duration="574000" />
+      <workItem from="1705750377127" duration="1202000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;项目初始化父pom">
       <created>1705746314582</created>
@@ -77,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705746587656</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&#10;给各个模块之间绑定父子模块关系">
+      <created>1705751229419</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705751229419</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +95,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&#10;项目初始化父pom" />
     <MESSAGE value="&#10;项目客户端服务初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;项目客户端服务初始化" />
+    <MESSAGE value="&#10;给各个模块之间绑定父子模块关系" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;给各个模块之间绑定父子模块关系" />
   </component>
 </project>
