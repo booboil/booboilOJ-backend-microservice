@@ -4,8 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="&#10;给各个模块之间绑定父子模块关系">
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/booboilojbackendcommon/annotation/BooboilOjBackendJudgeServiceApplication.java" afterDir="false" />
+    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="添加&#10;公共模块">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/BooboilOjBackendJudgeServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/annotation/AuthCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/common/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/common/DeleteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/common/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/common/PageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/common/ResultUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/config/JsonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/constant/CommonConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/constant/FileConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/constant/UserConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/exception/ThrowUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/utils/NetUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/utils/SqlUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,18 +55,31 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/IdeaProject/Oj/booboilOJ-backend-microservice/booboilOJ-backend-common/src/main/java",
+    "last_opened_file_path": "D:/IdeaProject/Oj/booboilOJ-backend-microservice/booboilOJ-backend-common/src/main/java/booboilojbackendcommon",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "spring.configuration.checksum": "3946976993c6c1075e8fa7703d4d17ef",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-common\src\main\java\booboilojbackendcommon" />
+      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-common\src\main\java\booboilojbackendcommon\common" />
+      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-common\src\main\java\booboilojbackendcommon\annotation\aop" />
+      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-common\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="booboilojbackendcommon.annotation" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +91,7 @@
       <workItem from="1705663697679" duration="2250000" />
       <workItem from="1705745555733" duration="1527000" />
       <workItem from="1705747091010" duration="736000" />
-      <workItem from="1705750377127" duration="1202000" />
+      <workItem from="1705750377127" duration="1797000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;项目初始化父pom">
       <created>1705746314582</created>
@@ -85,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705751229419</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加&#10;公共模块">
+      <created>1705752173679</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705752173679</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +132,7 @@
     <MESSAGE value="&#10;项目初始化父pom" />
     <MESSAGE value="&#10;项目客户端服务初始化" />
     <MESSAGE value="&#10;给各个模块之间绑定父子模块关系" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;给各个模块之间绑定父子模块关系" />
+    <MESSAGE value="添加&#10;公共模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加&#10;公共模块" />
   </component>
 </project>
