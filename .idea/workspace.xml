@@ -5,51 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="&#10;项目客户端服务初始化">
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/main/java/com/booboil/booboilojbackendgateway/BooboilOjBackendGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/main/java/com/booboil/booboilojbackendgateway/demos/web/BasicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/main/java/com/booboil/booboilojbackendgateway/demos/web/PathVariableController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/main/java/com/booboil/booboilojbackendgateway/demos/web/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/test/java/com/booboil/booboilojbackendgateway/BooboilOjBackendGatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/BooboilOjBackendJudgeServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/demos/web/BasicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/demos/web/PathVariableController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/demos/web/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/test/java/com/booboil/booboilojbackendjudgeservice/BooboilOjBackendJudgeServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/BooboilOjBackendQuestionServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/demos/web/BasicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/demos/web/PathVariableController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/demos/web/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/test/java/com/booboil/booboilojbackendquestionservice/BooboilOjBackendQuestionServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboil0jbackendserviceclient/Booboil0JBackendServiceClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboil0jbackendserviceclient/demos/web/BasicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboil0jbackendserviceclient/demos/web/PathVariableController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboil0jbackendserviceclient/demos/web/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/test/java/com/booboil/booboil0jbackendserviceclient/Booboil0JBackendServiceClientApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/BooboilOjBackendUserServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/demos/web/BasicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/demos/web/PathVariableController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/demos/web/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/test/java/com/booboil/booboilojbackenduserservice/BooboilOjBackendUserServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,23 +33,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProject/Oj/booboilOJ-backend-microservice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;f2f3eba973d3ffd07b17c7a3fde2ba60&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/IdeaProject/Oj/booboilOJ-backend-microservice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "3946976993c6c1075e8fa7703d4d17ef",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -105,6 +61,7 @@
       <workItem from="1705663697679" duration="2250000" />
       <workItem from="1705745555733" duration="1527000" />
       <workItem from="1705747091010" duration="736000" />
+      <workItem from="1705750377127" duration="574000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;项目初始化父pom">
       <created>1705746314582</created>

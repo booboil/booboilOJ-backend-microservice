@@ -8,7 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/booboilOJ-backend-microservice.iml" filepath="$PROJECT_DIR$/booboilOJ-backend-microservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/booboilOJ-backend-model.iml" filepath="$PROJECT_DIR$/booboilOJ-backend-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/booboilOJ-backend-question-service/booboilOJ-backend-question-service.iml" filepath="$PROJECT_DIR$/booboilOJ-backend-question-service/booboilOJ-backend-question-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/booboil0J-backend-service-client/booboilOJ-backend-service-client.iml" filepath="$PROJECT_DIR$/booboil0J-backend-service-client/booboilOJ-backend-service-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/booboilOJ-backend-service-client/booboilOJ-backend-service-client.iml" filepath="$PROJECT_DIR$/booboilOJ-backend-service-client/booboilOJ-backend-service-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/booboilOJ-backend-user-service/booboilOJ-backend-user-service.iml" filepath="$PROJECT_DIR$/booboilOJ-backend-user-service/booboilOJ-backend-user-service.iml" />
     </modules>
   </component>

@@ -7,10 +7,10 @@
     </profile>
   </component>
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/booboilOJ-backend-gateway" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/booboilOJ-backend-judge-service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/booboilOJ-backend-question-service" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/booboilOJ-backend-service-client" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/booboilOJ-backend-user-service" vcs="Git" />
   </component>
 </project>
