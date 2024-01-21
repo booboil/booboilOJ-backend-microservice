@@ -2,6 +2,7 @@ package com.booboil.booboilojbackenduserservice.controller.inner;
 
 import com.booboil.booboilojbackendmodel.model.entity.User;
 import com.booboil.booboilojbackendserviceclient.service.UserFeignClient;
+import com.booboil.booboilojbackenduserservice.service.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
