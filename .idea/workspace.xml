@@ -4,13 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="添加实体类&#10;实体类对象">
+    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="添加实体类&#10;配置">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-judge-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/demos/web/BasicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/demos/web/PathVariableController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/demos/web/User.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
@@ -48,19 +63,21 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "dc80b8ff239c69045af1a63efe03857c",
+    "spring.configuration.checksum": "b6477aae5e0fb3c04d75ce02952e2067",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-user-service\src\main\java\com\booboil\booboilojbackenduserservice\service\impl" />
       <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-model\src\main\java\com\booboil\booboilojbackendmodel\model" />
       <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-common\src\main\java\booboilojbackendcommon" />
       <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-common\src\main\java\booboilojbackendcommon\common" />
       <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-common\src\main\java\booboilojbackendcommon\annotation\aop" />
-      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-common\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.booboil.booboilojbackenduserservice.mapper" />
+      <recent name="com.booboil.booboilojbackenduserservice.controller.inner" />
       <recent name="com.booboil.booboilojbackendmodel.model.dto.question" />
       <recent name="booboilojbackendcommon.annotation" />
     </key>
@@ -78,6 +95,8 @@
       <workItem from="1705747091010" duration="736000" />
       <workItem from="1705750377127" duration="2792000" />
       <workItem from="1705753190052" duration="309000" />
+      <workItem from="1705845039491" duration="1488000" />
+      <workItem from="1705846536669" duration="52000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;项目初始化父pom">
       <created>1705746314582</created>
@@ -128,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705753448175</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加实体类&#10;配置">
+      <created>1705845135490</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705845135490</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,11 +162,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/booboilOJ-backend-common" />
+      <path value="$PROJECT_DIR$/booboilOJ-backend-gateway" />
+      <path value="$PROJECT_DIR$/booboilOJ-backend-judge-service" />
+      <path value="$PROJECT_DIR$/booboilOJ-backend-model" />
+      <path value="$PROJECT_DIR$/booboilOJ-backend-question-service" />
+      <path value="$PROJECT_DIR$/booboilOJ-backend-service-client" />
+      <path value="$PROJECT_DIR$/booboilOJ-backend-user-service" />
+    </ignored-roots>
     <MESSAGE value="&#10;项目初始化父pom" />
     <MESSAGE value="&#10;项目客户端服务初始化" />
     <MESSAGE value="&#10;给各个模块之间绑定父子模块关系" />
     <MESSAGE value="添加&#10;公共模块" />
     <MESSAGE value="添加实体类&#10;实体类对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加实体类&#10;实体类对象" />
+    <MESSAGE value="添加实体类&#10;配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加实体类&#10;配置" />
   </component>
 </project>
