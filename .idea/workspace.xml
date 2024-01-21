@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="添加实体类&#10;配置">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-judge-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/demos/web/BasicController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/demos/web/PathVariableController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/demos/web/User.java" beforeDir="false" />
+    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="添加用户模块&#10;用户服务项目设置">
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/controller/inner/UserInnerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/mapper/UserMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +51,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/IdeaProject/Oj/booboilOJ-backend-microservice",
+    "last_opened_file_path": "D:/IdeaProject/Oj/booboilOJ-backend-microservice/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/service/impl",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "b6477aae5e0fb3c04d75ce02952e2067",
     "vue.rearranger.settings.migration": "true"
   }
@@ -96,7 +91,7 @@
       <workItem from="1705750377127" duration="2792000" />
       <workItem from="1705753190052" duration="309000" />
       <workItem from="1705845039491" duration="1488000" />
-      <workItem from="1705846536669" duration="52000" />
+      <workItem from="1705846536669" duration="396000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;项目初始化父pom">
       <created>1705746314582</created>
@@ -154,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705845135490</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加用户模块&#10;用户服务项目设置">
+      <created>1705846814658</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705846814658</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +179,7 @@
     <MESSAGE value="添加&#10;公共模块" />
     <MESSAGE value="添加实体类&#10;实体类对象" />
     <MESSAGE value="添加实体类&#10;配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加实体类&#10;配置" />
+    <MESSAGE value="添加用户模块&#10;用户服务项目设置" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加用户模块&#10;用户服务项目设置" />
   </component>
 </project>
