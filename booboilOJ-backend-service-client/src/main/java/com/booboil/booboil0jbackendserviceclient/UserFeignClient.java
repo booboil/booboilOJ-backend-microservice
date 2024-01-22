@@ -18,9 +18,6 @@ import static com.booboil.booboilojbackendcommon.constant.UserConstant.USER_LOGI
 
 /**
  * 用户服务
- *
- * @author <a href="https://github.com/booboil">程序员booboil</a>
- *
  */
 @FeignClient(name = "booboilOJ-backend-user-service", path = "/api/user/inner")
 public interface UserFeignClient {

@@ -1,6 +1,5 @@
 package com.booboil.booboil0jbackendserviceclient;
 
-
 import com.booboil.booboilojbackendmodel.model.entity.QuestionSubmit;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
