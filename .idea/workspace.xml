@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="用户服务openFeign远程调用配置">
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/inner/QuestionInnerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="判题服务和题目服务openFeign远程调用配置">
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/config/MyBatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/config/MyBatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboil0jbackendserviceclient/JudgeFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboil0jbackendserviceclient/JudgeFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboil0jbackendserviceclient/QuestionFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboil0jbackendserviceclient/QuestionFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboil0jbackendserviceclient/UserFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboil0jbackendserviceclient/UserFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/BooboilOjBackendJudgeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/BooboilOjBackendJudgeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/controller/inner/JudgeInnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/controller/inner/JudgeInnerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/judge/JudgeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/judge/JudgeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/inner/QuestionInnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/inner/QuestionInnerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionSubmitServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionSubmitServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-service-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboil0jbackendserviceclient/JudgeFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboilojbackendserviceclient/JudgeFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboil0jbackendserviceclient/QuestionFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboilojbackendserviceclient/QuestionFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboil0jbackendserviceclient/UserFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboilojbackendserviceclient/UserFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/test/java/com/booboil/booboil0jbackendserviceclient/Booboil0JBackendServiceClientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/test/java/com/booboil/booboilojbackendserviceclient/Booboil0JBackendServiceClientApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/BooboilOjBackendUserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/BooboilOjBackendUserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/controller/inner/UserInnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/controller/inner/UserInnerController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +71,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/IdeaProject/Oj/booboilOJ-backend-microservice",
+    "last_opened_file_path": "D:/IdeaProject/Oj/booboilOJ-backend-microservice/booboilOJ-backend-gateway/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,11 +92,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-gateway\src\main\resources" />
       <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-question-service\src\main\resources" />
       <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-question-service\src\main\java\com\booboil\booboilojbackendquestionservice\mapper" />
       <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-judge-service\src\main\resources" />
       <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-service-client\src\main\java\com\booboil\booboil0jbackendserviceclient" />
-      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-judge-service\src\main\java\com\booboil\booboilojbackendjudgeservice\judge" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.booboil.booboilojbackendquestionservice.controller.inner" />
@@ -133,7 +145,7 @@
       <workItem from="1705847978011" duration="275000" />
       <workItem from="1705887077925" duration="4410000" />
       <workItem from="1705905313503" duration="10252000" />
-      <workItem from="1705916296400" duration="1498000" />
+      <workItem from="1705916296400" duration="3037000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;项目初始化父pom">
       <created>1705746314582</created>
@@ -275,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705914808179</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="判题服务和题目服务openFeign远程调用配置">
+      <created>1705922150381</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1705922150381</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +324,7 @@
     <MESSAGE value="删除文件" />
     <MESSAGE value="题目服务，采用rabbitmq发送消息" />
     <MESSAGE value="用户服务openFeign远程调用配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户服务openFeign远程调用配置" />
+    <MESSAGE value="判题服务和题目服务openFeign远程调用配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="判题服务和题目服务openFeign远程调用配置" />
   </component>
 </project>

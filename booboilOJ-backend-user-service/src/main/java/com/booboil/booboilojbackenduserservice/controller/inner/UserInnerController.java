@@ -1,6 +1,6 @@
 package com.booboil.booboilojbackenduserservice.controller.inner;
 
-import com.booboil.booboil0jbackendserviceclient.UserFeignClient;
+import com.booboil.booboilojbackendserviceclient.service.UserFeignClient;
 import com.booboil.booboilojbackendmodel.model.entity.User;
 import com.booboil.booboilojbackenduserservice.service.UserService;
 import org.springframework.web.bind.annotation.GetMapping;

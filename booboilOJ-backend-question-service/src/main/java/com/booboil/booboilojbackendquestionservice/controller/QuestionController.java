@@ -1,7 +1,7 @@
 package com.booboil.booboilojbackendquestionservice.controller;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.booboil.booboil0jbackendserviceclient.UserFeignClient;
+import com.booboil.booboilojbackendserviceclient.service.UserFeignClient;
 import com.google.gson.Gson;
 import com.booboil.booboilojbackendcommon.annotation.AuthCheck;
 import com.booboil.booboilojbackendcommon.common.BaseResponse;

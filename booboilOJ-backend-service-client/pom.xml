@@ -81,7 +81,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.booboil.booboil0jbackendserviceclient.Booboil0JBackendServiceClientApplication
+                    <mainClass>com.booboil.booboilojbackendserviceclient.Booboil0JBackendServiceClientApplication
                     </mainClass>
                     <skip>true</skip>
                 </configuration>

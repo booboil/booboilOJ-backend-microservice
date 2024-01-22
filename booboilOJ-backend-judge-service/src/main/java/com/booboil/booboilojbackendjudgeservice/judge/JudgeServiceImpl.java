@@ -1,7 +1,7 @@
 package com.booboil.booboilojbackendjudgeservice.judge;
 
 import cn.hutool.json.JSONUtil;
-import com.booboil.booboil0jbackendserviceclient.QuestionFeignClient;
+import com.booboil.booboilojbackendserviceclient.service.QuestionFeignClient;
 import com.booboil.booboilojbackendcommon.common.ErrorCode;
 import com.booboil.booboilojbackendcommon.exception.BusinessException;
 import com.booboil.booboilojbackendjudgeservice.judge.codesandbox.CodeSandbox;

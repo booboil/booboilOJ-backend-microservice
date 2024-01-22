@@ -1,4 +1,4 @@
-package com.booboil.booboil0jbackendserviceclient;
+package com.booboil.booboilojbackendserviceclient.service;
 
 import com.booboil.booboilojbackendmodel.model.entity.QuestionSubmit;
 import org.springframework.cloud.openfeign.FeignClient;

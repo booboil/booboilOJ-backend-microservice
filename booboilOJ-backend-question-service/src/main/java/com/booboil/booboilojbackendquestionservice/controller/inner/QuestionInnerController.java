@@ -1,6 +1,6 @@
 package com.booboil.booboilojbackendquestionservice.controller.inner;
 
-import com.booboil.booboil0jbackendserviceclient.QuestionFeignClient;
+import com.booboil.booboilojbackendserviceclient.service.QuestionFeignClient;
 import com.booboil.booboilojbackendmodel.model.entity.Question;
 import com.booboil.booboilojbackendmodel.model.entity.QuestionSubmit;
 import com.booboil.booboilojbackendquestionservice.service.QuestionService;

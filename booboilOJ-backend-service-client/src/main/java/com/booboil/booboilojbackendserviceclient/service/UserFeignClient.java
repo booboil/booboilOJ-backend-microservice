@@ -1,4 +1,4 @@
-package com.booboil.booboil0jbackendserviceclient;
+package com.booboil.booboilojbackendserviceclient.service;
 
 import com.booboil.booboilojbackendcommon.common.ErrorCode;
 import com.booboil.booboilojbackendcommon.exception.BusinessException;

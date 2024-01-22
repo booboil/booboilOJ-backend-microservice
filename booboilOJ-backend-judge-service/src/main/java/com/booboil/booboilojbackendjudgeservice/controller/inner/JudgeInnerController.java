@@ -1,6 +1,6 @@
 package com.booboil.booboilojbackendjudgeservice.controller.inner;
 
-import com.booboil.booboil0jbackendserviceclient.JudgeFeignClient;
+import com.booboil.booboilojbackendserviceclient.service.JudgeFeignClient;
 import com.booboil.booboilojbackendjudgeservice.judge.JudgeService;
 import com.booboil.booboilojbackendmodel.model.entity.QuestionSubmit;
 import org.springframework.web.bind.annotation.PostMapping;

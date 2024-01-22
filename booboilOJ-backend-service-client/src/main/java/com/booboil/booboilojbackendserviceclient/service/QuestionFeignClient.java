@@ -1,4 +1,4 @@
-package com.booboil.booboil0jbackendserviceclient;
+package com.booboil.booboilojbackendserviceclient.service;
 
 import com.booboil.booboilojbackendmodel.model.entity.Question;
 import com.booboil.booboilojbackendmodel.model.entity.QuestionSubmit;
