@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="booboilOJ-backend-service-client" />
         <module name="booboilOJ-backend-model" />
+        <module name="booboilOJ-backend-user-service" />
         <module name="booboilOJ-backend-gateway" />
         <module name="booboilOJ-backend-question-service" />
         <module name="booboilOJ-backend-judge-service" />

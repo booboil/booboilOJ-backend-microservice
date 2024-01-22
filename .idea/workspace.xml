@@ -4,7 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="用户模块配置信息" />
+    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="用户模块配置信息">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_core_4_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_openapi2_spring_boot_starter_4_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_openapi2_ui_4_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_bean_validators_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_webmvc_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_25_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_3_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/controller/inner/JudgeInnerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/judge/JudgeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/judge/JudgeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/judge/JudgeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/judge/codesandbox/CodeSandbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/judge/codesandbox/CodeSandboxFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/judge/codesandbox/CodeSandboxProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/judge/codesandbox/impl/ExampleCodeSandbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/judge/codesandbox/impl/RemoteCodeSandbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/judge/codesandbox/impl/ThirdPartyCodeSandbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/judge/strategy/DefaultJudgeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/judge/strategy/JavaLanguageJudgeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/judge/strategy/JudgeContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/judge/strategy/JudgeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboil0jbackendserviceclient/JudgeFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboil0jbackendserviceclient/QuestionFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-judge-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/demos/web/BasicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/demos/web/PathVariableController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/demos/web/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/java/com/booboil/booboil0jbackendserviceclient/Booboil0JBackendServiceClientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-service-client/src/main/resources/static/index.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,14 +94,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/IdeaProject/Oj/booboilOJ-backend-microservice/booboilOJ-backend-user-service",
+    "last_opened_file_path": "D:/IdeaProject/Oj/booboilOJ-backend-microservice/booboilOJ-backend-judge-service/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "b6477aae5e0fb3c04d75ce02952e2067",
+    "spring.configuration.checksum": "9310e1904ed91eedd6be7a2185084452",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -64,18 +112,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-user-service" />
-      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-user-service\src\main\resources" />
-      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-user-service\src\main\java\com\booboil\booboilojbackenduserservice\service\impl" />
-      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-model\src\main\java\com\booboil\booboilojbackendmodel\model" />
-      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-common\src\main\java\booboilojbackendcommon" />
+      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-judge-service\src\main\resources" />
+      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-service-client\src\main\java\com\booboil\booboil0jbackendserviceclient" />
+      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-judge-service\src\main\java\com\booboil\booboilojbackendjudgeservice\judge" />
+      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-judge-service\src\main\java\com\booboil\booboilojbackendjudgeservice\judge\codesandbox" />
+      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-judge-service\src\main\java\com\booboil\booboilojbackendjudgeservice\judge\codesandbox\impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.booboil.booboilojbackendjudgeservice.judge.codesandbox" />
       <recent name="com.booboil.booboil0jbackendserviceclient" />
       <recent name="com.booboil.booboilojbackenduserservice.mapper" />
       <recent name="com.booboil.booboilojbackenduserservice.controller.inner" />
       <recent name="com.booboil.booboilojbackendmodel.model.dto.question" />
-      <recent name="booboilojbackendcommon.annotation" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -94,6 +142,8 @@
       <workItem from="1705845039491" duration="1488000" />
       <workItem from="1705846536669" duration="396000" />
       <workItem from="1705846948852" duration="1023000" />
+      <workItem from="1705847978011" duration="275000" />
+      <workItem from="1705887077925" duration="3412000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;项目初始化父pom">
       <created>1705746314582</created>
@@ -186,7 +236,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705847821166</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="用户模块配置信息">
+      <created>1705848024937</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1705848024937</updated>
+    </task>
+    <task id="LOCAL-00015" summary="用户模块配置信息">
+      <created>1705848203217</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1705848203217</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
