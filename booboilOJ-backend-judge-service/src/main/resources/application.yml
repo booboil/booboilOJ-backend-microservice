@@ -28,6 +28,7 @@ spring:
     host: localhost
     port: 6379
     timeout: 5000
+    password: 66035912345
   servlet:
     multipart:
       # 大小限制
