@@ -3,6 +3,7 @@ package com.booboil.booboilojbackendquestionservice.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.booboil.booboil0jbackendserviceclient.UserFeignClient;
 import com.booboil.booboilojbackendcommon.common.ErrorCode;
 import com.booboil.booboilojbackendcommon.constant.CommonConstant;
 import com.booboil.booboilojbackendcommon.exception.BusinessException;
@@ -15,7 +16,6 @@ import com.booboil.booboilojbackendmodel.model.vo.QuestionVO;
 import com.booboil.booboilojbackendmodel.model.vo.UserVO;
 import com.booboil.booboilojbackendquestionservice.mapper.QuestionMapper;
 import com.booboil.booboilojbackendquestionservice.service.QuestionService;
-import com.booboil.booboilojbackenduserservice.service.UserService;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -36,10 +36,8 @@ import java.util.stream.Collectors;
 public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question>
         implements QuestionService {
 
-//    private final static Gson GSON = new Gson();
-
     @Resource
-    private UserService userService;
+    private UserFeignClient userFeignClient;
 
     /**
      * 校验参数是否合法
@@ -133,10 +131,11 @@ public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question>
         Long userId = question.getUserId();
         User user = null;
         if (userId != null && userId > 0) {
-            user = userService.getById(userId);
+            // 用户服务调用
+            user = userFeignClient.getById(userId);
         }
         // 用户脱敏
-        UserVO userVO = userService.getUserVO(user);
+        UserVO userVO = userFeignClient.getUserVO(user);
         questionVO.setUserVO(userVO);
         return questionVO;
     }
@@ -156,7 +155,7 @@ public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question>
         }
         // 1. 关联查询用户信息
         Set<Long> userIdSet = questionList.stream().map(Question::getUserId).collect(Collectors.toSet());
-        Map<Long, List<User>> userIdUserListMap = userService.listByIds(userIdSet).stream()
+        Map<Long, List<User>> userIdUserListMap = userFeignClient.listByIds(userIdSet).stream()
                 .collect(Collectors.groupingBy(User::getId));
         // 填充信息
         List<QuestionVO> questionVOList = questionList.stream().map(question -> {
@@ -166,7 +165,7 @@ public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question>
             if (userIdUserListMap.containsKey(userId)) {
                 user = userIdUserListMap.get(userId).get(0);
             }
-            questionVO.setUserVO(userService.getUserVO(user));
+            questionVO.setUserVO(userFeignClient.getUserVO(user));
             return questionVO;
         }).collect(Collectors.toList());
         questionVOPage.setRecords(questionVOList);
