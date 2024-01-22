@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="判题服务和题目服务openFeign远程调用配置bug">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/config/MyBatisPlusConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="题目服务rabbitmq发送消息远程调用配置bug" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +160,7 @@
       <workItem from="1705847978011" duration="275000" />
       <workItem from="1705887077925" duration="4410000" />
       <workItem from="1705905313503" duration="10252000" />
-      <workItem from="1705916296400" duration="6833000" />
+      <workItem from="1705916296400" duration="7235000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;项目初始化父pom">
       <created>1705746314582</created>
@@ -322,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705923829268</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="题目服务rabbitmq发送消息远程调用配置bug">
+      <created>1705930330791</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1705930330791</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +355,7 @@
     <MESSAGE value="用户服务openFeign远程调用配置" />
     <MESSAGE value="判题服务和题目服务openFeign远程调用配置" />
     <MESSAGE value="判题服务和题目服务openFeign远程调用配置bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="判题服务和题目服务openFeign远程调用配置bug" />
+    <MESSAGE value="题目服务rabbitmq发送消息远程调用配置bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="题目服务rabbitmq发送消息远程调用配置bug" />
   </component>
 </project>
