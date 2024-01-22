@@ -4,25 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="判题服务、客户端服务配置信息">
+    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="删除文件">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_6_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/QuestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/QuestionSubmitService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasicController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DemoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DemoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EchoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EchoServiceController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NacosDiscoveryConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NacosDiscoveryConsumerConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OpenFeignController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PathVariableController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RestTemplateController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SentinelWebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alibaba/cloud/demo/sentinel/api/FooService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/booboil/booboilOJbackendmicroservice/BooboilOjBackendMicroserviceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/booboil/booboilOJbackendmicroservice/BooboilOjBackendMicroserviceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/BooboilOjBackendQuestionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/BooboilOjBackendQuestionServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/demos/web/BasicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/demos/web/PathVariableController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/demos/web/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/resources/static/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -115,7 +115,7 @@
       <workItem from="1705846948852" duration="1023000" />
       <workItem from="1705847978011" duration="275000" />
       <workItem from="1705887077925" duration="4410000" />
-      <workItem from="1705905313503" duration="344000" />
+      <workItem from="1705905313503" duration="2325000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;项目初始化父pom">
       <created>1705746314582</created>
@@ -236,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705891478347</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="删除文件">
+      <created>1705905786945</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1705905786945</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +270,7 @@
     <MESSAGE value="用户模块配置信息" />
     <MESSAGE value="判题服务、客户端服务" />
     <MESSAGE value="判题服务、客户端服务配置信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="判题服务、客户端服务配置信息" />
+    <MESSAGE value="删除文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除文件" />
   </component>
 </project>
