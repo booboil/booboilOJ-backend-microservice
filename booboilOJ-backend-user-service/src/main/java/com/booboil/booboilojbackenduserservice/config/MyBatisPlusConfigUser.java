@@ -14,13 +14,13 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 @MapperScan("com.booboil.booboilojbackenduserservice.mapper")
-public class MyBatisPlusConfig {
+public class MyBatisPlusConfigUser {
 
     /**
      * 拦截器配置
      * @return
      */
-    @Bean
+    @Bean(name = "userMybatisPlusInterceptor")
     public MybatisPlusInterceptor mybatisPlusInterceptor() {
         MybatisPlusInterceptor interceptor = new MybatisPlusInterceptor();
         // 分页插件

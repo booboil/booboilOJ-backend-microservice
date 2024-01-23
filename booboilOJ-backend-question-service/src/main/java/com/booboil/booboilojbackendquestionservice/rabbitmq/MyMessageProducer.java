@@ -5,6 +5,9 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
 
+/**
+ * 消费者
+ */
 @Component
 public class MyMessageProducer {
 

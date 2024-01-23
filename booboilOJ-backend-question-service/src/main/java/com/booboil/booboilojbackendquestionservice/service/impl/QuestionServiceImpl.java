@@ -36,11 +36,12 @@ import java.util.stream.Collectors;
 public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question>
         implements QuestionService {
 
+
     @Resource
     private UserFeignClient userFeignClient;
 
     /**
-     * 校验参数是否合法
+     * 校验题目是否合法
      * @param question
      * @param add
      */
@@ -55,7 +56,6 @@ public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question>
         String answer = question.getAnswer();
         String judgeCase = question.getJudgeCase();
         String judgeConfig = question.getJudgeConfig();
-
         // 创建时，参数不能为空
         if (add) {
             ThrowUtils.throwIf(StringUtils.isAnyBlank(title, content, tags), ErrorCode.PARAMS_ERROR);
@@ -67,20 +67,19 @@ public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question>
         if (StringUtils.isNotBlank(content) && content.length() > 8192) {
             throw new BusinessException(ErrorCode.PARAMS_ERROR, "内容过长");
         }
-        if (StringUtils.isNotBlank(answer) && content.length() > 8192) {
+        if (StringUtils.isNotBlank(answer) && answer.length() > 8192) {
             throw new BusinessException(ErrorCode.PARAMS_ERROR, "答案过长");
         }
-        if (StringUtils.isNotBlank(judgeCase) && content.length() > 8192) {
+        if (StringUtils.isNotBlank(judgeCase) && judgeCase.length() > 8192) {
             throw new BusinessException(ErrorCode.PARAMS_ERROR, "判题用例过长");
         }
-        if (StringUtils.isNotBlank(judgeConfig) && content.length() > 8192) {
+        if (StringUtils.isNotBlank(judgeConfig) && judgeConfig.length() > 8192) {
             throw new BusinessException(ErrorCode.PARAMS_ERROR, "判题配置过长");
         }
     }
 
     /**
-     * 获取查询包装类
-     * （用户根据某些字段进行查询，根据前端传来的请求，得到MyBatis框架查询的QueryWrapper类）
+     * 获取查询包装类（用户根据哪些字段查询，根据前端传来的请求对象，得到 mybatis 框架支持的查询 QueryWrapper 类）
      *
      * @param questionQueryRequest
      * @return
@@ -103,9 +102,8 @@ public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question>
         // 拼接查询条件
         queryWrapper.like(StringUtils.isNotBlank(title), "title", title);
         queryWrapper.like(StringUtils.isNotBlank(content), "content", content);
-        queryWrapper.like(StringUtils.isNotBlank(answer), "content", answer);
+        queryWrapper.like(StringUtils.isNotBlank(answer), "answer", answer);
         if (CollectionUtils.isNotEmpty(tags)) {
-            // tag每一项单独查询
             for (String tag : tags) {
                 queryWrapper.like("tags", "\"" + tag + "\"");
             }
@@ -118,12 +116,6 @@ public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question>
         return queryWrapper;
     }
 
-    /**
-     * 获取题目封装
-     * @param question
-     * @param request
-     * @return
-     */
     @Override
     public QuestionVO getQuestionVO(Question question, HttpServletRequest request) {
         QuestionVO questionVO = QuestionVO.objToVo(question);
@@ -131,21 +123,13 @@ public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question>
         Long userId = question.getUserId();
         User user = null;
         if (userId != null && userId > 0) {
-            // 用户服务调用
             user = userFeignClient.getById(userId);
         }
-        // 用户脱敏
         UserVO userVO = userFeignClient.getUserVO(user);
         questionVO.setUserVO(userVO);
         return questionVO;
     }
 
-    /**
-     * 分页获取题目封装
-     * @param questionPage
-     * @param request
-     * @return
-     */
     @Override
     public Page<QuestionVO> getQuestionVOPage(Page<Question> questionPage, HttpServletRequest request) {
         List<Question> questionList = questionPage.getRecords();
@@ -173,3 +157,4 @@ public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question>
     }
 
 }
+

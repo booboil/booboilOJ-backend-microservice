@@ -9,8 +9,8 @@
     </parent>
     <artifactId>booboilOJ-backend-service-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>booboil0J-backend-service-client</name>
-    <description>booboil0J-backend-service-client</description>
+    <name>booboilOJ-backend-service-client</name>
+    <description>booboilOJ-backend-service-client</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

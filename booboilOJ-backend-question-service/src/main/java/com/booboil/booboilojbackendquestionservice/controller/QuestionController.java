@@ -35,8 +35,8 @@ import java.util.List;
  * @author <a href="https://github.com/booboil">程序员booboil</a>
  *
  */
-@RestController("/")
-//@RequestMapping("/")
+@RestController
+@RequestMapping("/")
 @Slf4j
 public class QuestionController {
 
