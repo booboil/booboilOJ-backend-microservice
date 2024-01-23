@@ -29,6 +29,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
@@ -60,7 +61,7 @@ public class QuestionSubmitServiceImpl extends ServiceImpl<QuestionSubmitMapper,
      *
      * @param questionSubmitAddRequest
      * @param loginUser
-     * @return
+     * @return 提交记录的id
      */
     @Override
     public long doQuestionSubmit(QuestionSubmitAddRequest questionSubmitAddRequest, User loginUser) {
@@ -76,6 +77,7 @@ public class QuestionSubmitServiceImpl extends ServiceImpl<QuestionSubmitMapper,
         if (question == null) {
             throw new BusinessException(ErrorCode.NOT_FOUND_ERROR);
         }
+
         // 是否已提交题目
         long userId = loginUser.getId();
         // 每个用户串行提交题目
@@ -87,20 +89,18 @@ public class QuestionSubmitServiceImpl extends ServiceImpl<QuestionSubmitMapper,
         // 设置初始状态
         questionSubmit.setStatus(QuestionSubmitStatusEnum.WAITING.getValue());
         questionSubmit.setJudgeInfo("{}");
+        // 调用save方法执行结果
         boolean save = this.save(questionSubmit);
         if (!save){
             throw new BusinessException(ErrorCode.SYSTEM_ERROR, "数据插入失败");
         }
         Long questionSubmitId = questionSubmit.getId();
-        // 发送消息
-//        myMessageProducer.sendMessage("code_exchange", "my_routingKey", String.valueOf(questionSubmitId));
-        // 执行判题服务
+        // 执行判题服务 (异步操作)
         CompletableFuture.runAsync(() -> {
             judgeFeignClient.doJudge(questionSubmitId);
         });
         return questionSubmitId;
     }
-
 
     /**
      * 获取查询包装类（用户根据哪些字段查询，根据前端传来的请求对象，得到 mybatis 框架支持的查询 QueryWrapper 类）
@@ -127,11 +127,18 @@ public class QuestionSubmitServiceImpl extends ServiceImpl<QuestionSubmitMapper,
         queryWrapper.eq(ObjectUtils.isNotEmpty(questionId), "questionId", questionId);
         queryWrapper.eq(QuestionSubmitStatusEnum.getEnumByValue(status) != null, "status", status);
         queryWrapper.eq("isDelete", false);
+        // SqlUtils工具类 校验排序字段是否合法（防止 SQL 注入）
         queryWrapper.orderBy(SqlUtils.validSortField(sortField), sortOrder.equals(CommonConstant.SORT_ORDER_ASC),
                 sortField);
         return queryWrapper;
     }
 
+    /**
+     * 获取题目提交封装
+     * @param questionSubmit
+     * @param loginUser
+     * @return
+     */
     @Override
     public QuestionSubmitVO getQuestionSubmitVO(QuestionSubmit questionSubmit, User loginUser) {
         QuestionSubmitVO questionSubmitVO = QuestionSubmitVO.objToVo(questionSubmit);
@@ -144,23 +151,34 @@ public class QuestionSubmitServiceImpl extends ServiceImpl<QuestionSubmitMapper,
         return questionSubmitVO;
     }
 
+    /**
+     * 分页获取题目提交封装
+     * @param questionSubmitPage
+     * @param loginUser
+     * @return
+     */
     @Override
     public Page<QuestionSubmitVO> getQuestionSubmitVOPage(Page<QuestionSubmit> questionSubmitPage, User loginUser) {
+        // 获取题目提交记录列表
         List<QuestionSubmit> questionSubmitList = questionSubmitPage.getRecords();
-        Page<QuestionSubmitVO> questionSubmitVOPage = new Page<>(questionSubmitPage.getCurrent(), questionSubmitPage.getSize(), questionSubmitPage.getTotal());
+        Page<QuestionSubmitVO> questionSubmitVOPage = new Page<>(questionSubmitPage.getCurrent(),
+                questionSubmitPage.getSize(),
+                questionSubmitPage.getTotal());
         if (CollectionUtils.isEmpty(questionSubmitList)) {
             return questionSubmitVOPage;
         }
-        List<QuestionSubmitVO> questionSubmitVOList = questionSubmitList.stream()
-                .map(questionSubmit -> getQuestionSubmitVO(questionSubmit, loginUser))
-                .collect(Collectors.toList());
+        // 方式一
+//        List<QuestionSubmitVO> questionSubmitVOList = questionSubmitList.stream()
+//                .map(questionSubmit -> getQuestionSubmitVO(questionSubmit, loginUser))
+//                .collect(Collectors.toList());
+        // 方式二
+        ArrayList<QuestionSubmitVO> questionSubmitVOList = new ArrayList<>();
+        for (QuestionSubmit questionSubmit : questionSubmitList) {
+            questionSubmitVOList.add(getQuestionSubmitVO(questionSubmit, loginUser));
+        }
         questionSubmitVOPage.setRecords(questionSubmitVOList);
         return questionSubmitVOPage;
     }
 
-
 }
-
-
-
 

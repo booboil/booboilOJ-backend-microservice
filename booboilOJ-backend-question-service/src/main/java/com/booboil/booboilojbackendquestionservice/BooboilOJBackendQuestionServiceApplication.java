@@ -16,10 +16,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @ComponentScan("com.booboil")
 @EnableDiscoveryClient
 @EnableFeignClients
-public class BooboilOjBackendQuestionServiceApplication {
+public class BooboilOJBackendQuestionServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BooboilOjBackendQuestionServiceApplication.class, args);
+        SpringApplication.run(BooboilOJBackendQuestionServiceApplication.class, args);
     }
 
 }
