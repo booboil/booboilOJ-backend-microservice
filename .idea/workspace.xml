@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="gateway网关过滤">
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/rabbitmq/InitRabbitMq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/rabbitmq/InitRabbitMqBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/rabbitmq/MyMessageConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/config/MyBatisPlusConfigQuestion.java" afterDir="false" />
+    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="rabbitmq发送消息，增加分页操作">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/config/JsonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-common/src/main/java/com/booboil/booboilojbackendcommon/config/JsonConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-common/target/classes/com/booboil/booboilojbackendcommon/config/JsonConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-common/target/classes/com/booboil/booboilojbackendcommon/config/JsonConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/BooboilOJBackendJudgeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/BooboilOJBackendJudgeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/BooboilOJBackendQuestionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/BooboilOJBackendQuestionServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/rabbitmq/MyMessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/rabbitmq/MyMessageProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionSubmitServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionSubmitServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-service-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-service-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/config/MyBatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/java/com/booboil/booboilojbackenduserservice/config/MyBatisPlusConfigUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +64,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/IdeaProject/Oj/booboilOJ-backend",
+    "last_opened_file_path": "D:/IdeaProject/Oj/booboilOJ-backend-microservice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -216,7 +207,8 @@
       <workItem from="1705916296400" duration="9015000" />
       <workItem from="1705973681170" duration="2701000" />
       <workItem from="1705976391412" duration="2342000" />
-      <workItem from="1705979180048" duration="9399000" />
+      <workItem from="1705979180048" duration="9910000" />
+      <workItem from="1705996487330" duration="3541000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;项目初始化父pom">
       <created>1705746314582</created>
@@ -400,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705990542068</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="rabbitmq发送消息，增加分页操作">
+      <created>1705996130656</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1705996130656</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,6 +434,7 @@
     <MESSAGE value="题目服务rabbitmq发送消息远程调用配置bug" />
     <MESSAGE value="服务远程调用配置bug" />
     <MESSAGE value="gateway网关过滤" />
-    <option name="LAST_COMMIT_MESSAGE" value="gateway网关过滤" />
+    <MESSAGE value="rabbitmq发送消息，增加分页操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="rabbitmq发送消息，增加分页操作" />
   </component>
 </project>

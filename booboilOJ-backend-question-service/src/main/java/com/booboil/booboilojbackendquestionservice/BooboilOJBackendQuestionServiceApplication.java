@@ -15,7 +15,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableAspectJAutoProxy(proxyTargetClass = true, exposeProxy = true)
 @ComponentScan("com.booboil")
 @EnableDiscoveryClient
-@EnableFeignClients
+@EnableFeignClients(basePackages = {"com.booboil.booboilojbackendserviceclient.service"})
 public class BooboilOJBackendQuestionServiceApplication {
 
     public static void main(String[] args) {
