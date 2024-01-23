@@ -4,26 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="题目服务rabbitmq发送消息远程调用配置bug">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_6_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_server_3_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_3_1_4.xml" beforeDir="false" />
+    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="服务远程调用配置bug">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/main/java/com/booboil/booboilojbackendgateway/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/main/java/com/booboil/booboilojbackendgateway/filter/GlobalAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_gateway_spring_boot_starter_4_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_gateway_spring_boot_starter_4_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_openapi3_ui_4_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_openapi3_ui_4_3_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booboilOJ-backend-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/main/java/com/booboil/booboilojbackendgateway/BooboilOjBackendGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/main/java/com/booboil/booboilojbackendgateway/BooboilOjBackendGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/main/java/com/booboil/booboilojbackendgateway/demos/web/BasicController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/main/java/com/booboil/booboilojbackendgateway/demos/web/PathVariableController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-gateway/src/main/java/com/booboil/booboilojbackendgateway/demos/web/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-judge-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/BooboilOjBackendJudgeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/main/java/com/booboil/booboilojbackendjudgeservice/BooboilOJBackendJudgeServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/test/java/com/booboil/booboilojbackendjudgeservice/BooboilOjBackendJudgeServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-judge-service/src/test/java/com/booboil/booboilojbackendjudgeservice/BooboilOJBackendJudgeServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/BooboilOjBackendQuestionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/BooboilOJBackendQuestionServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionSubmitServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionSubmitServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,41 +49,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/IdeaProject/Oj/booboilOJ-backend-microservice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "1583ebf114897296f16ba3f225108e2b",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProject/Oj/booboilOJ-backend-microservice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1583ebf114897296f16ba3f225108e2b&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -106,11 +96,11 @@
       <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-service-client\src\main\java\com\booboil\booboil0jbackendserviceclient" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.booboil.booboilojbackendgateway.filter" />
+      <recent name="com.booboil.booboilojbackendgateway.config" />
       <recent name="com.booboil.booboilojbackendquestionservice.config" />
       <recent name="com.booboil.booboilojbackendquestionservice.controller.inner" />
       <recent name="com.booboil.booboilojbackendquestionservice.controller" />
-      <recent name="com.booboil.booboilojbackendquestionservice.rabbitmq" />
-      <recent name="com.booboil.booboilojbackendquestionservice.service.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -203,7 +193,8 @@
       <workItem from="1705905313503" duration="10252000" />
       <workItem from="1705916296400" duration="9015000" />
       <workItem from="1705973681170" duration="2701000" />
-      <workItem from="1705976391412" duration="355000" />
+      <workItem from="1705976391412" duration="2342000" />
+      <workItem from="1705979180048" duration="3792000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;项目初始化父pom">
       <created>1705746314582</created>
@@ -373,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705930346219</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="服务远程调用配置bug">
+      <created>1705976983225</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1705976983225</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,6 +404,7 @@
     <MESSAGE value="判题服务和题目服务openFeign远程调用配置" />
     <MESSAGE value="判题服务和题目服务openFeign远程调用配置bug" />
     <MESSAGE value="题目服务rabbitmq发送消息远程调用配置bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="题目服务rabbitmq发送消息远程调用配置bug" />
+    <MESSAGE value="服务远程调用配置bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="服务远程调用配置bug" />
   </component>
 </project>
