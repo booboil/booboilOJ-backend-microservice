@@ -10,10 +10,12 @@ import com.booboil.booboilojbackendmodel.model.vo.QuestionVO;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author booboil
- * @description 针对表【question(题目)】的数据库操作Service
- */
+* @author 李booboil
+* @description 针对表【question(题目)】的数据库操作Service
+* @createDate 2023-08-07 20:58:00
+*/
 public interface QuestionService extends IService<Question> {
+
 
     /**
      * 校验
@@ -30,7 +32,7 @@ public interface QuestionService extends IService<Question> {
      * @return
      */
     QueryWrapper<Question> getQueryWrapper(QuestionQueryRequest questionQueryRequest);
-
+    
     /**
      * 获取题目封装
      *
@@ -48,5 +50,5 @@ public interface QuestionService extends IService<Question> {
      * @return
      */
     Page<QuestionVO> getQuestionVOPage(Page<Question> questionPage, HttpServletRequest request);
+    
 }
-

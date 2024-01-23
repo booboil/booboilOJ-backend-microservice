@@ -3,8 +3,6 @@ package com.booboil.booboilojbackendquestionservice.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.booboil.booboilojbackendserviceclient.service.JudgeFeignClient;
-import com.booboil.booboilojbackendserviceclient.service.UserFeignClient;
 import com.booboil.booboilojbackendcommon.common.ErrorCode;
 import com.booboil.booboilojbackendcommon.constant.CommonConstant;
 import com.booboil.booboilojbackendcommon.exception.BusinessException;
@@ -21,7 +19,8 @@ import com.booboil.booboilojbackendquestionservice.mapper.QuestionSubmitMapper;
 import com.booboil.booboilojbackendquestionservice.rabbitmq.MyMessageProducer;
 import com.booboil.booboilojbackendquestionservice.service.QuestionService;
 import com.booboil.booboilojbackendquestionservice.service.QuestionSubmitService;
-
+import com.booboil.booboilojbackendserviceclient.service.JudgeFeignClient;
+import com.booboil.booboilojbackendserviceclient.service.UserFeignClient;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -29,20 +28,19 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
 /**
-* @author booboil
+* @author 李booboil
 * @description 针对表【question_submit(题目提交)】的数据库操作Service实现
 * @createDate 2023-08-07 20:58:53
 */
 @Service
 public class QuestionSubmitServiceImpl extends ServiceImpl<QuestionSubmitMapper, QuestionSubmit>
-        implements QuestionSubmitService {
-
+    implements QuestionSubmitService {
+    
     @Resource
     private QuestionService questionService;
 
@@ -93,7 +91,7 @@ public class QuestionSubmitServiceImpl extends ServiceImpl<QuestionSubmitMapper,
             throw new BusinessException(ErrorCode.SYSTEM_ERROR, "数据插入失败");
         }
         Long questionSubmitId = questionSubmit.getId();
-        // 发送消息（通过RabbitMq实现异步发送）
+        // 发送消息
         myMessageProducer.sendMessage("code_exchange", "my_routingKey", String.valueOf(questionSubmitId));
         // 执行判题服务
 //        CompletableFuture.runAsync(() -> {
@@ -159,8 +157,8 @@ public class QuestionSubmitServiceImpl extends ServiceImpl<QuestionSubmitMapper,
         return questionSubmitVOPage;
     }
 
-}
 
+}
 
 
 

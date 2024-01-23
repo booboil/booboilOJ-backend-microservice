@@ -1,7 +1,6 @@
 package com.booboil.booboilojbackendquestionservice.controller;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.booboil.booboilojbackendserviceclient.service.UserFeignClient;
 import com.google.gson.Gson;
 import com.booboil.booboilojbackendcommon.annotation.AuthCheck;
 import com.booboil.booboilojbackendcommon.common.BaseResponse;
@@ -21,6 +20,7 @@ import com.booboil.booboilojbackendmodel.model.vo.QuestionSubmitVO;
 import com.booboil.booboilojbackendmodel.model.vo.QuestionVO;
 import com.booboil.booboilojbackendquestionservice.service.QuestionService;
 import com.booboil.booboilojbackendquestionservice.service.QuestionSubmitService;
+import com.booboil.booboilojbackendserviceclient.service.UserFeignClient;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.*;
@@ -33,7 +33,7 @@ import java.util.List;
  * 题目接口
  *
  * @author <a href="https://github.com/booboil">程序员booboil</a>
- *
+ * @from <a href="https://booboil.icu">编程导航知识星球</a>
  */
 @RestController
 @RequestMapping("/")
@@ -201,7 +201,7 @@ public class QuestionController {
      */
     @PostMapping("/list/page/vo")
     public BaseResponse<Page<QuestionVO>> listQuestionVOByPage(@RequestBody QuestionQueryRequest questionQueryRequest,
-                                                               HttpServletRequest request) {
+            HttpServletRequest request) {
         long current = questionQueryRequest.getCurrent();
         long size = questionQueryRequest.getPageSize();
         // 限制爬虫
@@ -220,7 +220,7 @@ public class QuestionController {
      */
     @PostMapping("/my/list/page/vo")
     public BaseResponse<Page<QuestionVO>> listMyQuestionVOByPage(@RequestBody QuestionQueryRequest questionQueryRequest,
-                                                                 HttpServletRequest request) {
+            HttpServletRequest request) {
         if (questionQueryRequest == null) {
             throw new BusinessException(ErrorCode.PARAMS_ERROR);
         }
@@ -245,7 +245,7 @@ public class QuestionController {
     @PostMapping("/list/page")
     @AuthCheck(mustRole = UserConstant.ADMIN_ROLE)
     public BaseResponse<Page<Question>> listQuestionByPage(@RequestBody QuestionQueryRequest questionQueryRequest,
-                                                           HttpServletRequest request) {
+                                                   HttpServletRequest request) {
         long current = questionQueryRequest.getCurrent();
         long size = questionQueryRequest.getPageSize();
         Page<Question> questionPage = questionService.page(new Page<>(current, size),
@@ -334,5 +334,7 @@ public class QuestionController {
         // 返回脱敏信息
         return ResultUtils.success(questionSubmitService.getQuestionSubmitVOPage(questionSubmitPage, loginUser));
     }
+
+
 
 }

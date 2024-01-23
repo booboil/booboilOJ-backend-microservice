@@ -1,6 +1,5 @@
 # 公共配置文件
 # @author <a href="https://github.com/booboil">程序员booboil</a>
-
 spring:
   application:
     name: booboilOJ-backend-question-service

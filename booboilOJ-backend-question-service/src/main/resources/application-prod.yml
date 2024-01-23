@@ -1,6 +1,5 @@
 # 生产环境配置文件
 # @author <a href="https://github.com/booboil">程序员booboil</a>
-
 spring:
   # 数据库配置
   datasource:
@@ -14,6 +13,7 @@ spring:
     host: redis
     port: 6379
     timeout: 5000
+    password: 66035912345
   servlet:
     multipart:
       # 大小限制

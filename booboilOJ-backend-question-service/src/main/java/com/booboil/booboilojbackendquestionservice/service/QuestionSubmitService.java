@@ -11,17 +11,18 @@ import com.booboil.booboilojbackendmodel.model.entity.User;
 import com.booboil.booboilojbackendmodel.model.vo.QuestionSubmitVO;
 
 /**
- * @author booboil
- * @description 针对表【question_submit(题目提交)】的数据库操作Service
- */
+* @author 李booboil
+* @description 针对表【question_submit(题目提交)】的数据库操作Service
+* @createDate 2023-08-07 20:58:53
+*/
 public interface QuestionSubmitService extends IService<QuestionSubmit> {
-
+    
     /**
      * 题目提交
      *
      * @param questionSubmitAddRequest 题目提交信息
      * @param loginUser
-     * @return 提交记录的id
+     * @return
      */
     long doQuestionSubmit(QuestionSubmitAddRequest questionSubmitAddRequest, User loginUser);
 
@@ -34,7 +35,7 @@ public interface QuestionSubmitService extends IService<QuestionSubmit> {
     QueryWrapper<QuestionSubmit> getQueryWrapper(QuestionSubmitQueryRequest questionSubmitQueryRequest);
 
     /**
-     * 获取题目提交封装
+     * 获取题目封装
      *
      * @param questionSubmit
      * @param loginUser
@@ -43,12 +44,11 @@ public interface QuestionSubmitService extends IService<QuestionSubmit> {
     QuestionSubmitVO getQuestionSubmitVO(QuestionSubmit questionSubmit, User loginUser);
 
     /**
-     * 分页获取题目提交封装
+     * 分页获取题目封装
      *
      * @param questionSubmitPage
      * @param loginUser
      * @return
      */
     Page<QuestionSubmitVO> getQuestionSubmitVOPage(Page<QuestionSubmit> questionSubmitPage, User loginUser);
-
 }

@@ -4,12 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="rabbitmq发送消息，增加分页操作">
+    <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="题目服务缓存bug">
+      <change afterPath="$PROJECT_DIR$/yuoj-backend-question-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuoj-backend-question-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuoj-backend-question-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuoj-backend-question-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuoj-backend-question-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuoj-backend-question-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/BooboilOJBackendQuestionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/BooboilOJBackendQuestionServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/booboilOJ-backend-user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/BooboilOJBackendQuestionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/BooboilOJBackendQuestionServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/config/MyBatisPlusConfigQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/inner/QuestionInnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/inner/QuestionInnerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/mapper/QuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/mapper/QuestionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/mapper/QuestionSubmitMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/mapper/QuestionSubmitMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/rabbitmq/MyMessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/rabbitmq/MyMessageProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/QuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/QuestionSubmitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/QuestionSubmitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionSubmitServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionSubmitServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/test/java/com/booboil/booboilojbackendquestionservice/BooboilOjBackendQuestionServiceApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,11 +106,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice" />
       <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-gateway\src\main\resources" />
       <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-question-service\src\main\resources" />
       <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-question-service\src\main\java\com\booboil\booboilojbackendquestionservice\mapper" />
       <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-judge-service\src\main\resources" />
-      <recent name="D:\IdeaProject\Oj\booboilOJ-backend-microservice\booboilOJ-backend-service-client\src\main\java\com\booboil\booboil0jbackendserviceclient" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.booboil.booboilojbackendquestionservice.config" />
@@ -109,20 +127,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BooboilOJBackendQuestionServiceApplication">
-    <configuration name="InitRabbitMq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.booboil.booboilojbackendjudgeservice.rabbitmq.InitRabbitMq" />
-      <module name="booboilOJ-backend-judge-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.booboil.booboilojbackendjudgeservice.rabbitmq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.BooboilOjBackendQuestionServiceApplication">
     <configuration name="BooboilOJBackendJudgeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="booboilOJ-backend-judge-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.booboil.booboilojbackendjudgeservice.BooboilOJBackendJudgeServiceApplication" />
@@ -162,6 +167,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BooboilOjBackendQuestionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="booboilOJ-backend-question-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.booboil.booboilojbackendquestionservice.BooboilOjBackendQuestionServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.booboil.booboilojbackendquestionservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BooboilOjBackendUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="booboilOJ-backend-user-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.booboil.booboilojbackenduserservice.BooboilOjBackendUserServiceApplication" />
@@ -177,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.BooboilOjBackendUserServiceApplication" />
+        <item itemvalue="Spring Boot.BooboilOjBackendQuestionServiceApplication" />
         <item itemvalue="Spring Boot.BooboilOJBackendQuestionServiceApplication" />
+        <item itemvalue="Spring Boot.BooboilOjBackendUserServiceApplication" />
         <item itemvalue="Spring Boot.BooboilOJBackendJudgeServiceApplication" />
         <item itemvalue="Spring Boot.BooboilOjBackendGatewayApplication" />
-        <item itemvalue="Application.InitRabbitMq" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +226,7 @@
       <workItem from="1705973681170" duration="2701000" />
       <workItem from="1705976391412" duration="2342000" />
       <workItem from="1705979180048" duration="9910000" />
-      <workItem from="1705996487330" duration="3541000" />
+      <workItem from="1705996487330" duration="4784000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;项目初始化父pom">
       <created>1705746314582</created>
@@ -399,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705996130656</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="题目服务缓存bug">
+      <created>1706000382127</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1706000382127</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,6 +460,7 @@
     <MESSAGE value="服务远程调用配置bug" />
     <MESSAGE value="gateway网关过滤" />
     <MESSAGE value="rabbitmq发送消息，增加分页操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="rabbitmq发送消息，增加分页操作" />
+    <MESSAGE value="题目服务缓存bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="题目服务缓存bug" />
   </component>
 </project>

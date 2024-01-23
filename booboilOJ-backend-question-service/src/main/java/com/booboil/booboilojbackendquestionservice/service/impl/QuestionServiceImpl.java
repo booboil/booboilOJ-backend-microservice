@@ -3,7 +3,6 @@ package com.booboil.booboilojbackendquestionservice.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.booboil.booboilojbackendserviceclient.service.UserFeignClient;
 import com.booboil.booboilojbackendcommon.common.ErrorCode;
 import com.booboil.booboilojbackendcommon.constant.CommonConstant;
 import com.booboil.booboilojbackendcommon.exception.BusinessException;
@@ -16,6 +15,7 @@ import com.booboil.booboilojbackendmodel.model.vo.QuestionVO;
 import com.booboil.booboilojbackendmodel.model.vo.UserVO;
 import com.booboil.booboilojbackendquestionservice.mapper.QuestionMapper;
 import com.booboil.booboilojbackendquestionservice.service.QuestionService;
+import com.booboil.booboilojbackendserviceclient.service.UserFeignClient;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -29,12 +29,13 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
- * @author booboil
- * @description 针对表【question(题目)】的数据库操作Service实现
- */
+* @author 李booboil
+* @description 针对表【question(题目)】的数据库操作Service实现
+* @createDate 2023-08-07 20:58:00
+*/
 @Service
 public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question>
-        implements QuestionService {
+    implements QuestionService {
 
 
     @Resource
@@ -156,5 +157,9 @@ public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question>
         return questionVOPage;
     }
 
+
 }
+
+
+
 

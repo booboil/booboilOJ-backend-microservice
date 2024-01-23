@@ -1,10 +1,10 @@
 package com.booboil.booboilojbackendquestionservice.controller.inner;
 
-import com.booboil.booboilojbackendserviceclient.service.QuestionFeignClient;
 import com.booboil.booboilojbackendmodel.model.entity.Question;
 import com.booboil.booboilojbackendmodel.model.entity.QuestionSubmit;
 import com.booboil.booboilojbackendquestionservice.service.QuestionService;
 import com.booboil.booboilojbackendquestionservice.service.QuestionSubmitService;
+import com.booboil.booboilojbackendserviceclient.service.QuestionFeignClient;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -39,4 +39,5 @@ public class QuestionInnerController implements QuestionFeignClient {
     public boolean updateQuestionSubmitById(@RequestBody QuestionSubmit questionSubmit) {
         return questionSubmitService.updateById(questionSubmit);
     }
+
 }

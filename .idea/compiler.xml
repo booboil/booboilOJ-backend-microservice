@@ -11,8 +11,8 @@
         <module name="booboilOJ-backend-model" />
         <module name="booboilOJ-backend-user-service" />
         <module name="booboilOJ-backend-gateway" />
-        <module name="booboilOJ-backend-question-service" />
         <module name="booboilOJ-backend-judge-service" />
+        <module name="booboilOJ-backend-question-service" />
         <module name="booboilOJ-backend-common" />
       </profile>
     </annotationProcessing>
