@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c22722e6-1ad6-4fab-8d9e-e4785f2dfd8e" name="Changes" comment="题目服务缓存bug">
-      <change afterPath="$PROJECT_DIR$/yuoj-backend-question-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yuoj-backend-question-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yuoj-backend-question-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yuoj-backend-question-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yuoj-backend-question-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yuoj-backend-question-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/BooboilOJBackendQuestionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/BooboilOJBackendQuestionServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/config/MyBatisPlusConfigQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/config/MyBatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/inner/QuestionInnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/controller/inner/QuestionInnerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/mapper/QuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/mapper/QuestionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/mapper/QuestionSubmitMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/mapper/QuestionSubmitMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/rabbitmq/MyMessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/rabbitmq/MyMessageProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/QuestionSubmitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/QuestionSubmitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionSubmitServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/java/com/booboil/booboilojbackendquestionservice/service/impl/QuestionSubmitServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yuoj-backend-question-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booboilOJ-backend-question-service/src/test/java/com/booboil/booboilojbackendquestionservice/BooboilOjBackendQuestionServiceApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,41 +44,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/IdeaProject/Oj/booboilOJ-backend-microservice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "1583ebf114897296f16ba3f225108e2b",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProject/Oj/booboilOJ-backend-microservice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1583ebf114897296f16ba3f225108e2b&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -120,33 +98,13 @@
       <recent name="com.booboil.booboilojbackendquestionservice.controller" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.BooboilOjBackendQuestionServiceApplication">
+  <component name="RunManager" selected="Spring Boot.BooboilOjBackendUserServiceApplication">
     <configuration name="BooboilOJBackendJudgeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="booboilOJ-backend-judge-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.booboil.booboilojbackendjudgeservice.BooboilOJBackendJudgeServiceApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.booboil.booboilojbackendjudgeservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BooboilOJBackendQuestionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="booboilOJ-backend-question-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.booboil.booboilojbackendquestionservice.BooboilOJBackendQuestionServiceApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.booboil.booboilojbackendquestionservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,9 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.BooboilOjBackendQuestionServiceApplication" />
-        <item itemvalue="Spring Boot.BooboilOJBackendQuestionServiceApplication" />
         <item itemvalue="Spring Boot.BooboilOjBackendUserServiceApplication" />
+        <item itemvalue="Spring Boot.BooboilOjBackendQuestionServiceApplication" />
         <item itemvalue="Spring Boot.BooboilOJBackendJudgeServiceApplication" />
         <item itemvalue="Spring Boot.BooboilOjBackendGatewayApplication" />
       </list>
@@ -226,7 +183,8 @@
       <workItem from="1705973681170" duration="2701000" />
       <workItem from="1705976391412" duration="2342000" />
       <workItem from="1705979180048" duration="9910000" />
-      <workItem from="1705996487330" duration="4784000" />
+      <workItem from="1705996487330" duration="11402000" />
+      <workItem from="1706084433301" duration="746000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;项目初始化父pom">
       <created>1705746314582</created>
@@ -424,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706000382127</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="题目服务缓存bug">
+      <created>1706001559792</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1706001559792</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
